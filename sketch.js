@@ -1,7 +1,13 @@
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(600, 400);
+  getAudioContext().resume();
 }
 
 function draw() {
-  background(220);
+  background(imagemEstrada);
+  mostraAtor();
+  mostraCarro();
+  movimentaAtor();
+  movimentaCarro();
+  voltaCarroPosicaoInicial();
 }
