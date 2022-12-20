@@ -1,6 +1,7 @@
 function setup() {
   createCanvas(600, 400);
   getAudioContext().resume();
+  trilhaSonora.loop();
 }
 
 function draw() {
@@ -10,4 +11,7 @@ function draw() {
   movimentaAtor();
   movimentaCarro();
   voltaCarroPosicaoInicial();
+  verificaColisao();
+  mostraPontos();
+  marcaPonto();
 }
