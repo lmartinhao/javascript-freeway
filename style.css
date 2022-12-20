@@ -5,3 +5,20 @@ html, body {
 canvas {
   display: block;
 }
+
+.rules-card {
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 25px;
+  width: 400px;
+  height: auto;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: -10px;
+  margin-left: 30px;
+}
+
+.title {
+  text-transform: uppercase;
+}
